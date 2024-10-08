@@ -35,5 +35,36 @@ const myFunction =function(){
 console.log(typeof myFunction);
 
 
+//**********************************
+
+//stack(premitive type me use hota hai)
+// Heap(non Premitive mai use hota hia)
+
+let myYoutubeName="codewithnagrndra"
+
+let anotherName=myYoutubeName
+anotherName="techyNagendra"
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+
+userTwo.email="user@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
 
 
